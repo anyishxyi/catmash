@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { VoteComponent } from './vote/vote.component';
-import { RakingComponent } from './raking/raking.component';
+import { RankingComponent } from './ranking/ranking.component';
 
 const routes: Routes = [
   { path: 'vote', component: VoteComponent },
-  { path: 'raking', component: RakingComponent },
+  { path: 'ranking', component: RankingComponent },
+  { path: '**', component: VoteComponent }
 ];
 
 @NgModule({
