@@ -10,7 +10,40 @@
     width: 50%;
     background-color: beige;
   }
-}
-.showRackingPage {
-
+  .logo {
+    margin: 0 auto;
+    background: none;
+    position: absolute;
+    width: 100%;
+    img {
+      margin: 0 auto;
+      display: block;
+      width: 160px;
+      border: none;
+      height: 150px;
+    }
+    figcaption {
+      text-align: center;
+      font-size: 34px;
+    }
+  }
+  .bottom {
+    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+    bottom: -5px;
+    cursor: pointer;
+    div {
+      margin: 0 auto;
+      display: block;
+      background-color: beige;
+      border-top: 4px solid aqua;
+      border-left: 4px solid aqua;
+      border-right: 4px solid aqua;
+      border-radius: 10px;
+      width: 300px;
+      height: 75px;
+      text-align: center;
+    }
+  }
 }
