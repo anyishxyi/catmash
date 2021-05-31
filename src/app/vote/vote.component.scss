@@ -47,3 +47,18 @@
     }
   }
 }
+
+.current_image {
+  margin: 0 auto;
+  position: absolute;
+  width: 50%;
+  top: 30%;
+  .image {
+    margin: 0 auto;
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 28% 28% 47% 53% / 22% 23% 61% 63%;
+    border: 1 solid aqua;
+  }
+}
