@@ -3,8 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { RankingComponent } from './ranking/ranking.component';
-import { VoteComponent } from './vote/vote.component';
+import { RankingComponent } from './pages/ranking/ranking.component';
+import { VoteComponent } from './pages/vote/vote.component';
 
 @NgModule({
   declarations: [
