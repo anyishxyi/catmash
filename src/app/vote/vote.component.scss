@@ -4,18 +4,18 @@
   .left {
     float: left;
     width: 50%;
-    background-color: aqua;
+    background-color: var(--gray);
   }
   .right {
     width: 50%;
-    background-color: beige;
+    background-color: var(--white);
   }
   .logo {
-    margin: 0 auto;
-    background: none;
+    background: transparent;
     position: absolute;
     width: 100%;
     img {
+      background: transparent;
       margin: 0 auto;
       display: block;
       width: 160px;
@@ -23,42 +23,60 @@
       height: 150px;
     }
     figcaption {
+      background: transparent;
       text-align: center;
       font-size: 34px;
     }
   }
   .bottom {
+    background: transparent;
     margin: 0 auto;
     position: absolute;
     width: 100%;
     bottom: -5px;
     cursor: pointer;
-    div {
+    .content {
       margin: 0 auto;
       display: block;
-      background-color: beige;
-      border-top: 4px solid aqua;
-      border-left: 4px solid aqua;
-      border-right: 4px solid aqua;
+      background-color: var(--white);
+      border-top: 5px solid var(--gray);
+      border-left: 5px solid var(--gray);
+      border-right: 5px solid var(--gray);
       border-radius: 10px;
       width: 300px;
       height: 75px;
       text-align: center;
+      div{
+        padding-top: 10px;
+        border-radius: 13px;
+        background-color: var(--white);
+        margin: 0;
+      }
     }
   }
 }
 
 .current_image {
-  margin: 0 auto;
   position: absolute;
+  background: transparent;
   width: 50%;
   top: 30%;
   .image {
+    cursor: pointer;
     margin: 0 auto;
     display: block;
     width: 300px;
     height: 300px;
     border-radius: 28% 28% 47% 53% / 22% 23% 61% 63%;
-    border: 1 solid aqua;
+    // -webkit-transform: rotate(-45deg);
+    // border-radius: 49% 54% 58% 40% / 60% 50% 47% 0%;
   }
+}
+
+#img_left {
+  border: 10px solid var(--white);
+}
+
+#img_right {
+  border: 10px solid var(--gray);
 }

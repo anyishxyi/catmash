@@ -5,18 +5,20 @@
   </figure>
   <div class="left">
     <figure class="current_image">
-      <img src="../../assets/img/cats/cat.jpg" class="image" alt="current cat">
+      <img src="../../assets/img/cats/cat.jpg" id="img_left" class="image" alt="current cat">
     </figure>
   </div>
   <div class="right">
     <figure class="current_image">
-      <img src="../../assets/img/cats/cat.jpg" class="image" alt="current cat">
+      <img src="../../assets/img/cats/cat.jpg" id="img_right" class="image" alt="current cat">
     </figure>
   </div>
   <div [routerLink]="['/ranking']" class="bottom">
-    <div>
-      <p>Voir les plus beaux chats</p>
-      <p>{{voters}} votes</p>
+    <div class="content">
+      <div>
+        <p>Voir les plus beaux chats</p>
+        <p>{{voters}} votes</p>
+      </div>
     </div>
   </div>
 </div>
