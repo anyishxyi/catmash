@@ -4,14 +4,10 @@
     <figcaption>CAT MASH</figcaption>
   </figure>
   <div class="left">
-    <figure class="current_image">
-      <img src="../../assets/img/cats/cat.jpg" id="img_left" class="image" alt="current cat">
-    </figure>
+    <app-cat-ui [catData]="data.first" (onSelectedCat)="selectedCat($event)"></app-cat-ui>
   </div>
   <div class="right">
-    <figure class="current_image">
-      <img src="../../assets/img/cats/cat.jpg" id="img_right" class="image" alt="current cat">
-    </figure>
+    <app-cat-ui [catData]="data.second" (onSelectedCat)="selectedCat($event)"></app-cat-ui>
   </div>
   <div [routerLink]="['/ranking']" class="bottom">
     <div class="content">

@@ -1,8 +1,9 @@
 import { Injectable } from '@angular/core';
-import { Observable, of } from 'rxjs';
 
 import { Cat } from './cat';
 import { CATS } from './mock-cats';
+
+import cats from '../../assets/img/cats/cats-data.json';
 
 @Injectable({
   providedIn: 'root'
@@ -11,8 +12,7 @@ export class CatService {
 
   constructor() {}
 
-  getCats(): Observable<Cat[]> {
-    const cats = of (CATS);
-    return cats;
+  getCats(): any[] {
+    return cats.data;
   }
 }

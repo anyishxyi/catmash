@@ -1,0 +1,169 @@
+{
+	"data":[
+		{
+			"id": 0,
+			"path": "../../assets/img/cats/cat-0.jpg",
+			"vote": 5
+		},
+		{
+			"id": 1,
+			"path": "../../assets/img/cats/cat-1.jpg",
+			"vote": 2
+		},
+		{
+			"id": 2,
+			"path": "../../assets/img/cats/cat-2.jpg",
+			"vote": 9
+		},
+		{
+			"id": 3,
+			"path": "../../assets/img/cats/cat-3.jpg",
+			"vote": 13
+		},
+		{
+			"id": 4,
+			"path": "../../assets/img/cats/cat-4.jpg",
+			"vote": 2
+		},
+		{
+			"id": 5,
+			"path": "../../assets/img/cats/cat-5.jpg",
+			"vote": 0
+		},
+		{
+			"id": 6,
+			"path": "../../assets/img/cats/cat-6.jpg",
+			"vote": 0
+		},
+		{
+			"id": 7,
+			"path": "../../assets/img/cats/cat-7.jpg",
+			"vote": 0
+		},
+		{
+			"id": 8,
+			"path": "../../assets/img/cats/cat-8.jpg",
+			"vote": 9
+		},
+		{
+			"id": 9,
+			"path": "../../assets/img/cats/cat-9.jpg",
+			"vote": 2
+		},
+		{
+			"id": 10,
+			"path": "../../assets/img/cats/cat-10.jpg",
+			"vote": 34
+		},
+		{
+			"id": 11,
+			"path": "../../assets/img/cats/cat-11.jpg",
+			"vote": 5
+		},
+		{
+			"id": 12,
+			"path": "../../assets/img/cats/cat-12.jpg",
+			"vote": 1
+		},
+		{
+			"id": 13,
+			"path": "../../assets/img/cats/cat-13.jpg",
+			"vote": 0
+		},
+		{
+			"id": 14,
+			"path": "../../assets/img/cats/cat-14.jpg",
+			"vote": 98
+		},
+		{
+			"id": 15,
+			"path": "../../assets/img/cats/cat-15.jpg",
+			"vote": 4
+		},
+		{
+			"id": 16,
+			"path": "../../assets/img/cats/cat-16.jpg",
+			"vote": 7
+		},
+		{
+			"id": 17,
+			"path": "../../assets/img/cats/cat-17.jpg",
+			"vote": 9
+		},
+		{
+			"id": 18,
+			"path": "../../assets/img/cats/cat-18.jpg",
+			"vote": 12
+		},
+		{
+			"id": 19,
+			"path": "../../assets/img/cats/cat-19.jpg",
+			"vote": 3
+		},
+		{
+			"id": 20,
+			"path": "../../assets/img/cats/cat-20.jpg",
+			"vote": 0
+		},
+		{
+			"id": 21,
+			"path": "../../assets/img/cats/cat-21.jpg",
+			"vote": 0
+		},
+		{
+			"id": 22,
+			"path": "../../assets/img/cats/cat-22.jpg",
+			"vote": 0
+		},
+		{
+			"id": 23,
+			"path": "../../assets/img/cats/cat-23.jpg",
+			"vote": 0
+		},
+		{
+			"id": 24,
+			"path": "../../assets/img/cats/cat-24.jpg",
+			"vote": 43
+		},
+		{
+			"id": 25,
+			"path": "../../assets/img/cats/cat-25.jpg",
+			"vote": 76
+		},
+		{
+			"id": 26,
+			"path": "../../assets/img/cats/cat-26.jpg",
+			"vote": 22
+		},
+		{
+			"id": 27,
+			"path": "../../assets/img/cats/cat-27.jpg",
+			"vote": 1
+		},
+		{
+			"id": 28,
+			"path": "../../assets/img/cats/cat-28.jpg",
+			"vote": 87
+		},
+		{
+			"id": 29,
+			"path": "../../assets/img/cats/cat-29.jpg",
+			"vote": 54
+		},
+		{
+			"id": 30,
+			"path": "../../assets/img/cats/cat-30.jpg",
+			"vote": 2
+		},
+		{
+			"id": 31,
+			"path": "../../assets/img/cats/cat-31.jpg",
+			"vote": 43
+		},
+		{
+			"id": 32,
+			"path": "../../assets/img/cats/cat-32.jpg",
+			"vote": 1
+		}
+	]
+}
